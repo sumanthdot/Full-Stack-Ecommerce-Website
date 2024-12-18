@@ -59,7 +59,8 @@ const Header = () => {
     <div className=' h-full container mx-auto flex justify-between items-center px-4 '>
         <div className=''>
            <Link to={"/"}>
-                    <Logo w={90} h={50}/>
+                    {/* <Logo w={90} h={50}/> */}
+                    <h2>Sumant</h2>
            </Link>
         </div>
         <div className='hidden lg:flex items-center w-full justify-between max-w-sm border rounded-full focus-within:shadow pl-2'>
